@@ -1,3 +1,5 @@
-﻿char zeichen = '.';
-int my_var = zeichen;
-Console.WriteLine(my_var);
+﻿string string_eins = "The quick fox";
+string string_zwei = " jumps over the lazy dog";
+string string_drei = string_eins + string_zwei;
+
+Console.WriteLine(string_drei);
